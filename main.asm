@@ -44,6 +44,8 @@ bank3		macro
 		bsf	    status,rp0
 		bsf	    status,rp1
 		endm
+		
+		
 ;-----------------;	    
 ;--- Variables ---;
 ;-----------------;
@@ -99,8 +101,7 @@ init		movlw	    0x70
 ;--- Lectura capacitiva ---;
 ;--------------------------;
 		
-cap_read	;comf	    AuxADC,w	    ;Invertimos el valor de AuxADC
-		movfw	    Sensor	    ;Ponemos todos menos Sensor como out
+cap_read	movfw	    Sensor	    ;Ponemos todos menos Sensor como out
 		iorlw	    b'11111000'
 		bank1
 		movwf	    trisa	    ;Actualizamos el valor de trisa
