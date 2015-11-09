@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Proyecto_II.X
+PROJECTNAME=Brazo-Robotico
 
 # Active Configuration
 DEFAULTCONF=default

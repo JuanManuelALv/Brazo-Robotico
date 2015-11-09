@@ -11,6 +11,10 @@
 ;		Código para el control y manejo del brazo robótico.
 ;======================================================================;
 
+    
+    
+    
+    
 #include <p16f883.inc>
 
 ; Reloj interno, watchdog desactivado y programación de bajo voltaje desactivada
