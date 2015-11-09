@@ -49,6 +49,7 @@ bank3		macro
 ;-----------------;	    
 ;--- Variables ---;
 ;-----------------;
+		
 		cblock	    0x20
 Sensor					    ;0x20
 AuxADC					    ;0x21
