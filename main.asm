@@ -14,7 +14,7 @@
     
     
     
-    
+  
 #include <p16f883.inc>
 
 ; Reloj interno, watchdog desactivado y programación de bajo voltaje desactivada
